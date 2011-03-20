@@ -7,8 +7,6 @@ package com.ryancanulla.views
 	import flash.display.Sprite;
 	import flash.events.Event;
 	import flash.net.URLRequest;
-	
-	import org.osmf.logging.Log;
 
 	public class FirstView extends ViewBase
 	{
