@@ -38,5 +38,9 @@ package com.ryancanulla.views
 			
 		}
 		
+		protected function destroy():void {
+			
+		}
+		
 	}
 }
