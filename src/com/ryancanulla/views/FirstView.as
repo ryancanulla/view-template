@@ -58,5 +58,16 @@ package com.ryancanulla.views
 		override protected function sizeUpdated():void {
 			updateLayout();
 		}
+		
+		override protected function destroy():void {
+			removeChild(background);
+			background = null;
+			
+			removeChild(logo);
+			logo = null;
+			
+			viewAssets = null;
+		}
+			
 	}
 }
